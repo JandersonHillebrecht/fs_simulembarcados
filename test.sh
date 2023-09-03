@@ -18,6 +18,7 @@
 # 16) Delete /home/user/earth.jpg
 # 17) Rmdir /home/user/
 # 18) ls /
+# 19) Teste Submodulo
 
 echo "########### Test 1 #############"
 ./simulfs -format
@@ -129,5 +130,4 @@ echo "Delete user directory passed!"
 echo ""
 echo "########### Test 18 #############"
 ./simulfs -ls /
-
 
